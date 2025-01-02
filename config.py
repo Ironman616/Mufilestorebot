@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\nమీరు ఈ క్రింద ఉన్న 2 ఛానల్స్ లో జాయిన్ అవ్వాలి.. Join అయిన తర్వాత ' Reload ' Click చేస్తే File వస్తుంది 😊</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b><blockquote>ʜᴇʟʟᴏ {first}\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</blockquote> \n\nమీరు ఈ క్రింద ఉన్న 2 ఛానల్స్ లో జాయిన్ అవ్వాలి.. Join అయిన తర్వాత ' Reload ' Click చేస్తే File వస్తుంది 😊</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
